@@ -23,4 +23,4 @@ This single command will do everything for you: update packages, install the nec
 Just copy the entire command below and paste it into your Termux terminal:
 
 ```bash
-pkg update && pkg upgrade -y && pkg install ffmpeg curl -y && curl -L -O https://raw.githubusercontent.com/Fcbd71pes/3gp/main/3gp/video-converter.sh && chmod +x video-converter.sh && ./video-converter.sh
+pkg update && pkg upgrade -y && pkg install ffmpeg curl -y && curl -L -O https://github.com/Fcbd71pes/3gp.git && cd 3gp && chmod +x video-converter.sh && ./video-converter.sh
